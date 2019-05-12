@@ -12,6 +12,7 @@ public class DateTag extends SimpleTagSupport {
 	public void doTag() throws JspException, IOException {
 		JspWriter out = getJspContext().getOut();
 		out.println(new Date().toString());
+		//printing date via tags run the program from the jsp page
 	}
 
 }
